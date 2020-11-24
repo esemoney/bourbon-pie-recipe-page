@@ -1,0 +1,58 @@
+/*MASTER STYLES*/
+
+body{
+    color: black;
+    font-family: cursive;
+}
+
+
+@media (max-width: 1000px) and (min-width:640px) {
+    .container{
+        width: auto;
+    }
+}
+
+.container{
+    justify-content: space-between;
+}
+
+.pagecontent{
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+
+img{
+    width: 400px;
+    height: 500px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 2em;
+    color: black;}
+
+
+/*.TOS STYLE STYLING*/
+.tosStyle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/*
+.tosStyle{
+    display: flex;
+}*/
+
+
+.dottie{
+    color: white(126, 45, 59);
+}
+
+.ingredients{
+    color: white;
+}
